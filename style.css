@@ -23,11 +23,11 @@ body {
 ======================================== */
 
 .top {
-  height: 294px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 90px;
+  padding-top: 70px;
 }
 
 .header-logo {
@@ -54,23 +54,23 @@ body {
 .about {
   width: 100%;
   margin: 0 auto;
-  padding: 50px 20px 65px;
+  padding: 38px 20px 48px;
   text-align: center;
 }
 
 .about h1 {
-  margin: 0 0 53px;
-  font-size: 50px;
-  line-height: 1.25;
+  margin: 0 0 28px;
+  font-size: 46px;
+  line-height: 1.2;
   font-weight: 500;
   color: #562a3e;
 }
 
 .about p {
-  max-width: 2175px;
+  max-width: 1800px;
   margin: 0 auto;
-  font-size: 24px;
-  line-height: 1.8;
+  font-size: 22px;
+  line-height: 1.55;
   font-weight: 300;
   color: #754e5a;
 }
@@ -81,7 +81,7 @@ body {
 
 .courses {
   background-color: #f1dac1;
-  padding: 80px 7% 95px;
+  padding: 55px 7% 65px;
 }
 
 .courses-inner {
@@ -90,9 +90,9 @@ body {
 }
 
 .courses h2 {
-  margin: 0 0 50px;
+  margin: 0 0 35px;
   text-align: center;
-  font-size: 40px;
+  font-size: 38px;
   line-height: 1.2;
   font-weight: 500;
   color: #562a3e;
@@ -101,7 +101,7 @@ body {
 .course-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 45px;
+  gap: 38px;
 }
 
 /* ========================================
@@ -129,7 +129,7 @@ body {
 .course-image {
   display: block;
   width: 100%;
-  height: 390px;
+  height: 340px;
   object-fit: cover;
 }
 
@@ -137,27 +137,27 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 38px 40px 40px;
+  padding: 30px 34px 32px;
 }
 
 .course-content h3 {
-  margin: 0 0 25px;
-  font-size: 31px;
-  line-height: 1.3;
+  margin: 0 0 18px;
+  font-size: 29px;
+  line-height: 1.28;
   font-weight: 500;
   color: #562a3e;
 }
 
 .course-start {
-  margin: 0 0 30px;
-  font-size: 20px;
-  line-height: 1.5;
+  margin: 0 0 22px;
+  font-size: 19px;
+  line-height: 1.45;
   color: #754e5a;
 }
 
 .course-link {
   margin: auto 0 0;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.4;
   font-weight: 600;
   color: #8a334e;
@@ -172,12 +172,12 @@ body {
 ======================================== */
 
 .course-header {
-  padding: 45px 7%;
+  padding: 30px 7%;
   background-color: #f7e5d0;
 }
 
 .course-header-logo {
-  width: 260px;
+  width: 240px;
   height: auto;
   display: block;
 }
@@ -188,7 +188,7 @@ body {
 
 .course-hero {
   background-color: #f7e5d0;
-  padding: 55px 7% 90px;
+  padding: 35px 7% 55px;
 }
 
 .course-hero-inner {
@@ -197,21 +197,21 @@ body {
 
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
-  gap: 75px;
+  gap: 60px;
   align-items: center;
 }
 
 .course-eyebrow {
-  margin: 0 0 22px;
-  font-size: 15px;
+  margin: 0 0 16px;
+  font-size: 14px;
   letter-spacing: 2px;
   font-weight: 600;
   color: #92506a;
 }
 
 .course-hero h1 {
-  margin: 0 0 32px;
-  font-size: 58px;
+  margin: 0 0 24px;
+  font-size: 52px;
   line-height: 1.08;
   font-weight: 500;
   color: #562a3e;
@@ -219,15 +219,15 @@ body {
 
 .course-lead {
   max-width: 700px;
-  margin: 0 0 38px;
-  font-size: 22px;
-  line-height: 1.6;
+  margin: 0 0 28px;
+  font-size: 20px;
+  line-height: 1.5;
   color: #754e5a;
 }
 
 .course-hero-image img {
   width: 100%;
-  height: 510px;
+  height: 460px;
   display: block;
   object-fit: cover;
 }
@@ -238,11 +238,11 @@ body {
 
 .course-button {
   display: inline-block;
-  padding: 16px 28px;
+  padding: 14px 25px;
   background-color: #562a3e;
   color: #f7e5d0;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -263,7 +263,7 @@ body {
 .practical {
   background-color: #562a3e;
   color: #f7e5d0;
-  padding: 42px 7%;
+  padding: 28px 7%;
 }
 
 .practical-grid {
@@ -272,24 +272,24 @@ body {
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
+  gap: 35px;
 }
 
 .practical-item {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
 }
 
 .practical-label {
-  font-size: 13px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1.4px;
   opacity: 0.75;
 }
 
 .practical-item strong {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
 }
 
@@ -298,7 +298,7 @@ body {
 ======================================== */
 
 .course-section {
-  padding: 90px 7%;
+  padding: 55px 7%;
   background-color: #f7e5d0;
 }
 
@@ -307,7 +307,7 @@ body {
 }
 
 .text-container {
-  max-width: 1050px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -317,22 +317,26 @@ body {
 }
 
 .course-section h2 {
-  margin: 0 0 35px;
-  font-size: 40px;
+  margin: 0 0 24px;
+  font-size: 37px;
   line-height: 1.2;
   font-weight: 500;
   color: #562a3e;
 }
 
 .course-section p {
-  margin: 0 0 22px;
-  font-size: 19px;
-  line-height: 1.8;
+  margin: 0 0 14px;
+  font-size: 18px;
+  line-height: 1.55;
   color: #754e5a;
 }
 
+.course-section p:last-child {
+  margin-bottom: 0;
+}
+
 .center-heading {
-  margin-bottom: 50px !important;
+  margin-bottom: 32px !important;
   text-align: center;
 }
 
@@ -343,17 +347,17 @@ body {
 .session-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: 24px;
 }
 
 .session-card {
-  padding: 42px;
+  padding: 28px 30px;
   background-color: #f1dac1;
 }
 
 .session-number {
-  margin: 0 0 15px !important;
-  font-size: 14px !important;
+  margin: 0 0 10px !important;
+  font-size: 13px !important;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px;
@@ -361,23 +365,28 @@ body {
 }
 
 .session-card h3 {
-  margin: 0 0 17px;
-  font-size: 27px;
-  line-height: 1.3;
+  margin: 0 0 12px;
+  font-size: 24px;
+  line-height: 1.25;
   font-weight: 500;
   color: #562a3e;
 }
 
 .session-date {
-  margin: 0 0 22px !important;
-  font-size: 18px !important;
+  margin: 0 0 14px !important;
+  font-size: 16px !important;
+  line-height: 1.4 !important;
   font-weight: 600;
   color: #562a3e !important;
 }
 
+.session-card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .session-card p:last-child {
   margin-bottom: 0;
-  font-size: 17px;
 }
 
 /* ========================================
@@ -386,15 +395,19 @@ body {
 
 .course-list {
   margin: 0;
-  padding-left: 24px;
+  padding-left: 22px;
 }
 
 .course-list li {
-  margin-bottom: 15px;
-  padding-left: 7px;
-  font-size: 18px;
-  line-height: 1.65;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  font-size: 17px;
+  line-height: 1.5;
   color: #754e5a;
+}
+
+.course-list li:last-child {
+  margin-bottom: 0;
 }
 
 /* ========================================
@@ -404,23 +417,23 @@ body {
 .teacher-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: 24px;
 }
 
 .teacher-card {
-  padding: 34px 38px 38px;
+  padding: 28px 32px 30px;
   background-color: #f7e5d0;
   text-align: center;
 }
 
-/* Små, naturlige, runde profilbilder */
+/* Runde profilbilder */
 
 .teacher-photo {
   width: 110px !important;
   height: 110px !important;
 
   display: block !important;
-  margin: 0 auto 20px !important;
+  margin: 0 auto 16px !important;
 
   object-fit: cover !important;
   object-position: center 25% !important;
@@ -431,9 +444,9 @@ body {
 /* Navn */
 
 .teacher-card h3 {
-  margin: 0 0 7px;
-  font-size: 25px;
-  line-height: 1.25;
+  margin: 0 0 6px;
+  font-size: 24px;
+  line-height: 1.2;
   font-weight: 500;
   color: #562a3e;
 }
@@ -441,9 +454,9 @@ body {
 /* Rolle */
 
 .teacher-role {
-  margin: 0 0 20px !important;
+  margin: 0 0 14px !important;
   font-size: 14px !important;
-  line-height: 1.4 !important;
+  line-height: 1.35 !important;
   font-weight: 600;
   color: #92506a !important;
 }
@@ -451,9 +464,14 @@ body {
 /* Biografitekst */
 
 .teacher-card p:not(.teacher-role) {
+  margin-bottom: 11px;
   text-align: left;
-  font-size: 17px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.teacher-card p:last-child {
+  margin-bottom: 0;
 }
 
 /* ========================================
@@ -461,7 +479,7 @@ body {
 ======================================== */
 
 .signup {
-  padding: 90px 7%;
+  padding: 60px 7%;
   background-color: #7d3a52;
   color: #f7e5d0;
   text-align: center;
@@ -473,33 +491,35 @@ body {
 }
 
 .signup-small {
-  margin: 0 0 18px;
-  font-size: 14px;
+  margin: 0 0 12px;
+  font-size: 13px;
   letter-spacing: 1.7px;
   font-weight: 600;
 }
 
 .signup h2 {
-  margin: 0 0 22px;
-  font-size: 42px;
-  line-height: 1.25;
+  margin: 0 0 16px;
+  font-size: 38px;
+  line-height: 1.2;
   font-weight: 500;
 }
 
 .signup p {
-  font-size: 19px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .signup-button {
   display: inline-block;
-  margin-top: 25px;
-  padding: 16px 30px;
+  margin-top: 20px;
+  padding: 14px 27px;
 
   background-color: #f7e5d0;
   color: #562a3e;
 
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -508,22 +528,22 @@ body {
 ======================================== */
 
 footer {
-  min-height: 307px;
+  min-height: 245px;
   background-color: #562a3e;
   color: #f7e5d0;
-  padding: 88px 47px 42px;
+  padding: 58px 47px 36px;
   font-size: 16px;
 }
 
 .footer-logo {
   display: block;
-  width: 245px;
+  width: 225px;
   height: auto;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 footer p {
-  margin: 8px 0;
+  margin: 7px 0;
 }
 
 footer a {
@@ -535,11 +555,9 @@ footer a {
 ======================================== */
 
 @media (max-width: 900px) {
-  /* FORSIDE */
-
   .top {
-    height: 210px;
-    padding-top: 65px;
+    height: 190px;
+    padding-top: 55px;
   }
 
   .header-logo {
@@ -552,111 +570,120 @@ footer a {
   }
 
   .about {
-    padding: 40px 25px 55px;
+    padding: 32px 25px 42px;
   }
 
   .about h1 {
-    margin-bottom: 32px;
+    margin-bottom: 22px;
     font-size: 34px;
   }
 
   .about p {
     font-size: 17px;
-    line-height: 1.8;
+    line-height: 1.55;
   }
 
-  /* FORSIDE - KURS */
+  /* Forside kurs */
 
   .courses {
-    padding: 60px 25px 70px;
+    padding: 45px 25px 55px;
   }
 
   .courses h2 {
-    margin-bottom: 35px;
-    font-size: 32px;
+    margin-bottom: 28px;
+    font-size: 31px;
   }
 
   .course-grid {
     grid-template-columns: 1fr;
-    gap: 35px;
+    gap: 28px;
   }
 
   .course-image {
-    height: 300px;
+    height: 290px;
   }
 
   .course-content {
-    padding: 30px;
+    padding: 27px;
   }
 
   .course-content h3 {
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .course-start {
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .course-link {
     font-size: 16px;
   }
 
-  /* KURSSIDER */
+  /* Kurssider */
 
   .course-header {
-    padding: 30px 25px;
+    padding: 25px;
   }
 
   .course-header-logo {
-    width: 220px;
+    width: 210px;
   }
 
   .course-hero {
-    padding: 35px 25px 60px;
+    padding: 28px 25px 42px;
   }
 
   .course-hero-inner {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 30px;
   }
 
   .course-hero h1 {
-    font-size: 39px;
+    font-size: 38px;
   }
 
   .course-lead {
     font-size: 18px;
+    margin-bottom: 24px;
   }
 
   .course-hero-image img {
-    height: 320px;
+    height: 310px;
   }
 
   .practical {
-    padding: 35px 25px;
+    padding: 25px;
   }
 
   .practical-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
   }
 
   .course-section {
-    padding: 60px 25px;
+    padding: 42px 25px;
   }
 
   .course-section h2 {
-    font-size: 32px;
+    margin-bottom: 20px;
+    font-size: 31px;
   }
 
   .course-section p {
+    margin-bottom: 12px;
     font-size: 17px;
+    line-height: 1.5;
   }
 
   .session-grid {
     grid-template-columns: 1fr;
   }
 
-  /* FORELESERE */
+  .session-card {
+    padding: 26px;
+  }
+
+  /* Forelesere */
 
   .teacher-grid {
     grid-template-columns: 1fr;
@@ -667,21 +694,21 @@ footer a {
     height: 100px !important;
   }
 
-  /* PÅMELDING */
+  /* Påmelding */
 
   .signup {
-    padding: 65px 25px;
+    padding: 48px 25px;
   }
 
   .signup h2 {
-    font-size: 32px;
+    font-size: 31px;
   }
 
-  /* FOOTER */
+  /* Footer */
 
   footer {
-    min-height: 220px;
-    padding: 55px 25px;
+    min-height: 200px;
+    padding: 45px 25px;
   }
 
   .footer-logo {
@@ -696,27 +723,39 @@ footer a {
 @media (max-width: 550px) {
   .practical-grid {
     grid-template-columns: 1fr;
-    gap: 25px;
+    gap: 20px;
   }
 
   .course-hero h1 {
-    font-size: 34px;
+    font-size: 33px;
   }
 
   .course-hero-image img {
-    height: 260px;
+    height: 250px;
+  }
+
+  .course-section {
+    padding: 36px 22px;
+  }
+
+  .course-section h2 {
+    font-size: 29px;
   }
 
   .session-card {
-    padding: 30px;
+    padding: 24px;
   }
 
   .teacher-card {
-    padding: 30px 25px;
+    padding: 26px 24px;
   }
 
   .teacher-photo {
     width: 92px !important;
     height: 92px !important;
+  }
+
+  .signup {
+    padding: 42px 22px;
   }
 }
