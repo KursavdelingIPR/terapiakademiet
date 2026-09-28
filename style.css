@@ -1,0 +1,722 @@
+/* ========================================
+   GRUNNINNSTILLINGER
+======================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7e5d0;
+  color: #562a3e;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ========================================
+   FORSIDE - TOPP
+======================================== */
+
+.top {
+  height: 294px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 90px;
+}
+
+.header-logo {
+  width: 405px;
+  height: auto;
+  display: block;
+}
+
+/* ========================================
+   FORSIDE - SKILLELINJE
+======================================== */
+
+.divider {
+  width: 75%;
+  height: 1px;
+  background-color: #b36585;
+  margin: 0 auto;
+}
+
+/* ========================================
+   FORSIDE - OM TERAPIAKADEMIET
+======================================== */
+
+.about {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 20px 65px;
+  text-align: center;
+}
+
+.about h1 {
+  margin: 0 0 53px;
+  font-size: 50px;
+  line-height: 1.25;
+  font-weight: 500;
+  color: #562a3e;
+}
+
+.about p {
+  max-width: 2175px;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 1.8;
+  font-weight: 300;
+  color: #754e5a;
+}
+
+/* ========================================
+   FORSIDE - AKTUELLE PROGRAMMER
+======================================== */
+
+.courses {
+  background-color: #f1dac1;
+  padding: 80px 7% 95px;
+}
+
+.courses-inner {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.courses h2 {
+  margin: 0 0 50px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #562a3e;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 45px;
+}
+
+/* ========================================
+   FORSIDE - KURSKORT
+======================================== */
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7e5d0;
+  text-decoration: none;
+  color: #562a3e;
+  overflow: hidden;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 30px rgba(86, 42, 62, 0.14);
+}
+
+.course-image {
+  display: block;
+  width: 100%;
+  height: 390px;
+  object-fit: cover;
+}
+
+.course-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 38px 40px 40px;
+}
+
+.course-content h3 {
+  margin: 0 0 25px;
+  font-size: 31px;
+  line-height: 1.3;
+  font-weight: 500;
+  color: #562a3e;
+}
+
+.course-start {
+  margin: 0 0 30px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #754e5a;
+}
+
+.course-link {
+  margin: auto 0 0;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #8a334e;
+}
+
+.course-card:hover .course-link {
+  text-decoration: underline;
+}
+
+/* ========================================
+   KURSSIDER - TOPP
+======================================== */
+
+.course-header {
+  padding: 45px 7%;
+  background-color: #f7e5d0;
+}
+
+.course-header-logo {
+  width: 260px;
+  height: auto;
+  display: block;
+}
+
+/* ========================================
+   KURSSIDER - HERO
+======================================== */
+
+.course-hero {
+  background-color: #f7e5d0;
+  padding: 55px 7% 90px;
+}
+
+.course-hero-inner {
+  max-width: 1500px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 75px;
+  align-items: center;
+}
+
+.course-eyebrow {
+  margin: 0 0 22px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #92506a;
+}
+
+.course-hero h1 {
+  margin: 0 0 32px;
+  font-size: 58px;
+  line-height: 1.08;
+  font-weight: 500;
+  color: #562a3e;
+}
+
+.course-lead {
+  max-width: 700px;
+  margin: 0 0 38px;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #754e5a;
+}
+
+.course-hero-image img {
+  width: 100%;
+  height: 510px;
+  display: block;
+  object-fit: cover;
+}
+
+/* ========================================
+   KNAPPER
+======================================== */
+
+.course-button {
+  display: inline-block;
+  padding: 16px 28px;
+  background-color: #562a3e;
+  color: #f7e5d0;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.course-button:hover {
+  opacity: 0.88;
+}
+
+.disabled-button {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.72;
+}
+
+/* ========================================
+   PRAKTISK INFO
+======================================== */
+
+.practical {
+  background-color: #562a3e;
+  color: #f7e5d0;
+  padding: 42px 7%;
+}
+
+.practical-grid {
+  max-width: 1500px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.practical-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.practical-label {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  opacity: 0.75;
+}
+
+.practical-item strong {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* ========================================
+   KURSSIDER - GENERELLE SEKSJONER
+======================================== */
+
+.course-section {
+  padding: 90px 7%;
+  background-color: #f7e5d0;
+}
+
+.course-section-alt {
+  background-color: #f1dac1;
+}
+
+.text-container {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.wide-container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.course-section h2 {
+  margin: 0 0 35px;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #562a3e;
+}
+
+.course-section p {
+  margin: 0 0 22px;
+  font-size: 19px;
+  line-height: 1.8;
+  color: #754e5a;
+}
+
+.center-heading {
+  margin-bottom: 50px !important;
+  text-align: center;
+}
+
+/* ========================================
+   SAMLINGER
+======================================== */
+
+.session-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.session-card {
+  padding: 42px;
+  background-color: #f1dac1;
+}
+
+.session-number {
+  margin: 0 0 15px !important;
+  font-size: 14px !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #92506a !important;
+}
+
+.session-card h3 {
+  margin: 0 0 17px;
+  font-size: 27px;
+  line-height: 1.3;
+  font-weight: 500;
+  color: #562a3e;
+}
+
+.session-date {
+  margin: 0 0 22px !important;
+  font-size: 18px !important;
+  font-weight: 600;
+  color: #562a3e !important;
+}
+
+.session-card p:last-child {
+  margin-bottom: 0;
+  font-size: 17px;
+}
+
+/* ========================================
+   LISTER
+======================================== */
+
+.course-list {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.course-list li {
+  margin-bottom: 15px;
+  padding-left: 7px;
+  font-size: 18px;
+  line-height: 1.65;
+  color: #754e5a;
+}
+
+/* ========================================
+   FORELESERE
+======================================== */
+
+.teacher-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.teacher-card {
+  padding: 34px 38px 38px;
+  background-color: #f7e5d0;
+  text-align: center;
+}
+
+/* Små, naturlige, runde profilbilder */
+
+.teacher-photo {
+  width: 110px !important;
+  height: 110px !important;
+
+  display: block !important;
+  margin: 0 auto 20px !important;
+
+  object-fit: cover !important;
+  object-position: center 25% !important;
+
+  border-radius: 50% !important;
+}
+
+/* Navn */
+
+.teacher-card h3 {
+  margin: 0 0 7px;
+  font-size: 25px;
+  line-height: 1.25;
+  font-weight: 500;
+  color: #562a3e;
+}
+
+/* Rolle */
+
+.teacher-role {
+  margin: 0 0 20px !important;
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+  font-weight: 600;
+  color: #92506a !important;
+}
+
+/* Biografitekst */
+
+.teacher-card p:not(.teacher-role) {
+  text-align: left;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* ========================================
+   PÅMELDINGSFELT
+======================================== */
+
+.signup {
+  padding: 90px 7%;
+  background-color: #7d3a52;
+  color: #f7e5d0;
+  text-align: center;
+}
+
+.signup-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.signup-small {
+  margin: 0 0 18px;
+  font-size: 14px;
+  letter-spacing: 1.7px;
+  font-weight: 600;
+}
+
+.signup h2 {
+  margin: 0 0 22px;
+  font-size: 42px;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.signup p {
+  font-size: 19px;
+}
+
+.signup-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 16px 30px;
+
+  background-color: #f7e5d0;
+  color: #562a3e;
+
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* ========================================
+   FOOTER
+======================================== */
+
+footer {
+  min-height: 307px;
+  background-color: #562a3e;
+  color: #f7e5d0;
+  padding: 88px 47px 42px;
+  font-size: 16px;
+}
+
+.footer-logo {
+  display: block;
+  width: 245px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+footer p {
+  margin: 8px 0;
+}
+
+footer a {
+  color: #f1bb89;
+}
+
+/* ========================================
+   NETTBRETT / MOBIL
+======================================== */
+
+@media (max-width: 900px) {
+  /* FORSIDE */
+
+  .top {
+    height: 210px;
+    padding-top: 65px;
+  }
+
+  .header-logo {
+    width: 300px;
+    max-width: 80%;
+  }
+
+  .divider {
+    width: 86%;
+  }
+
+  .about {
+    padding: 40px 25px 55px;
+  }
+
+  .about h1 {
+    margin-bottom: 32px;
+    font-size: 34px;
+  }
+
+  .about p {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  /* FORSIDE - KURS */
+
+  .courses {
+    padding: 60px 25px 70px;
+  }
+
+  .courses h2 {
+    margin-bottom: 35px;
+    font-size: 32px;
+  }
+
+  .course-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .course-image {
+    height: 300px;
+  }
+
+  .course-content {
+    padding: 30px;
+  }
+
+  .course-content h3 {
+    font-size: 25px;
+  }
+
+  .course-start {
+    font-size: 18px;
+  }
+
+  .course-link {
+    font-size: 16px;
+  }
+
+  /* KURSSIDER */
+
+  .course-header {
+    padding: 30px 25px;
+  }
+
+  .course-header-logo {
+    width: 220px;
+  }
+
+  .course-hero {
+    padding: 35px 25px 60px;
+  }
+
+  .course-hero-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .course-hero h1 {
+    font-size: 39px;
+  }
+
+  .course-lead {
+    font-size: 18px;
+  }
+
+  .course-hero-image img {
+    height: 320px;
+  }
+
+  .practical {
+    padding: 35px 25px;
+  }
+
+  .practical-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .course-section {
+    padding: 60px 25px;
+  }
+
+  .course-section h2 {
+    font-size: 32px;
+  }
+
+  .course-section p {
+    font-size: 17px;
+  }
+
+  .session-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* FORELESERE */
+
+  .teacher-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .teacher-photo {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  /* PÅMELDING */
+
+  .signup {
+    padding: 65px 25px;
+  }
+
+  .signup h2 {
+    font-size: 32px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    min-height: 220px;
+    padding: 55px 25px;
+  }
+
+  .footer-logo {
+    width: 190px;
+  }
+}
+
+/* ========================================
+   LITEN MOBIL
+======================================== */
+
+@media (max-width: 550px) {
+  .practical-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .course-hero h1 {
+    font-size: 34px;
+  }
+
+  .course-hero-image img {
+    height: 260px;
+  }
+
+  .session-card {
+    padding: 30px;
+  }
+
+  .teacher-card {
+    padding: 30px 25px;
+  }
+
+  .teacher-photo {
+    width: 92px !important;
+    height: 92px !important;
+  }
+}
