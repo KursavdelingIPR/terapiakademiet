@@ -764,3 +764,6 @@ footer a {
     text-align: center !important;
   }
 }
+img[src="images/bente-forside.logo.png"] {
+  object-position: center top;
+}
