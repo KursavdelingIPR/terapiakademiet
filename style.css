@@ -758,12 +758,23 @@ footer a {
   .signup {
     padding: 42px 22px;
   }
-}
-@media (max-width: 550px) {
+
   .mobile-center-heading {
     text-align: center !important;
   }
+
+  .oslo-course-image,
+  .bergen-course-image {
+    object-position: left top !important;
+  }
 }
-img[src="images/bente-forside.logo.png"] {
+
+/* ========================================
+   KURSBILDER PÅ FORSIDEN
+======================================== */
+
+.oslo-course-image,
+.bergen-course-image {
+  object-fit: cover;
   object-position: center top;
 }
