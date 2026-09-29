@@ -117,6 +117,80 @@
       }
 
       /* ========================================
+       ANBEFALTE VEILEDERE
+    ======================================== */
+
+      .supervisor-section {
+        background-color: #f7e5d0;
+      }
+
+      .supervisor-intro {
+        max-width: 950px;
+        margin-bottom: 30px;
+      }
+
+      .supervisor-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px 24px;
+
+        margin-top: 28px;
+        margin-bottom: 32px;
+      }
+
+      .supervisor-card {
+        display: flex;
+        align-items: center;
+
+        gap: 13px;
+
+        min-width: 0;
+        padding: 13px 15px;
+
+        background-color: #f1dac1;
+        border: 1px solid rgba(86, 42, 62, 0.08);
+      }
+
+      .supervisor-photo {
+        width: 58px;
+        height: 58px;
+
+        flex-shrink: 0;
+
+        object-fit: cover;
+        object-position: center 25%;
+
+        border-radius: 50%;
+      }
+
+      .supervisor-info {
+        min-width: 0;
+      }
+
+      .supervisor-name {
+        margin: 0 0 3px !important;
+
+        font-size: 15px !important;
+        line-height: 1.25 !important;
+        font-weight: 600;
+
+        color: #562a3e;
+      }
+
+      .supervisor-title {
+        margin: 0 !important;
+
+        font-size: 11px !important;
+        line-height: 1.3 !important;
+
+        color: #754e5a;
+      }
+
+      .supervisor-notes {
+        max-width: 1000px;
+      }
+
+      /* ========================================
        MOBIL - MER KOMPAKT VISNING
     ======================================== */
 
@@ -215,7 +289,13 @@
           margin-bottom: 0 !important;
         }
 
-        /* Disse to overskriftene skal være på én linje */
+        /* Kun disse overskriftene midtstilles på mobil */
+
+        .mobile-center-heading {
+          text-align: center !important;
+        }
+
+        /* Disse overskriftene skal være på én linje */
 
         .mobile-one-line {
           white-space: nowrap !important;
@@ -305,6 +385,50 @@
         .teacher-card p:not(.teacher-role) {
           margin-bottom: 8px !important;
           font-size: 14.5px !important;
+          line-height: 1.4 !important;
+        }
+
+        /* Anbefalte veiledere - 2 bortover */
+
+        .supervisor-intro {
+          margin-bottom: 18px !important;
+        }
+
+        .supervisor-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+          gap: 10px !important;
+
+          margin-top: 18px !important;
+          margin-bottom: 22px !important;
+        }
+
+        .supervisor-card {
+          gap: 8px !important;
+
+          min-height: 67px;
+
+          padding: 9px !important;
+        }
+
+        .supervisor-photo {
+          width: 43px !important;
+          height: 43px !important;
+        }
+
+        .supervisor-name {
+          margin-bottom: 2px !important;
+
+          font-size: 11.5px !important;
+          line-height: 1.18 !important;
+        }
+
+        .supervisor-title {
+          font-size: 8.5px !important;
+          line-height: 1.2 !important;
+        }
+
+        .supervisor-notes p {
+          font-size: 14px !important;
           line-height: 1.4 !important;
         }
 
@@ -454,7 +578,7 @@
         <div class="practical-grid">
           <div class="practical-item">
             <span class="practical-label">Oppstart</span>
-            <strong>14. juni 2027</strong>
+            <strong>14. mai 2027</strong>
           </div>
 
           <div class="practical-item">
@@ -558,7 +682,7 @@
 
               <h3>Introduksjon til humanistisk barne- og ungdomspsykologi</h3>
 
-              <p class="session-date">14.–15. juni 2027</p>
+              <p class="session-date">14.–15. mai 2027</p>
 
               <p>
                 Den første samlingen introduserer det humanistiske
@@ -909,7 +1033,7 @@
       </section>
 
       <!-- ========================================
-         VEILEDNING
+         VALGFRI GRUPPEVEILEDNING
     ========================================= -->
 
       <section class="course-section course-section-alt">
@@ -946,6 +1070,203 @@
             Gruppeveiledning er valgfritt og er ikke inkludert i kursavgiften på
             33 650 kr.
           </p>
+        </div>
+      </section>
+
+      <!-- ========================================
+         ANBEFALTE VEILEDERE
+    ========================================= -->
+
+      <section class="course-section supervisor-section">
+        <div class="wide-container">
+          <h2>Anbefalte veiledere</h2>
+
+          <div class="supervisor-intro">
+            <p>
+              Det er krav om 60 timer veiledning tilknyttet programmet.
+              Veiledningen skal gjennomføres av psykologspesialist, og det
+              kreves metodespesifikk veiledning parallelt med behandlingsforløp.
+              For dette programmet er det krav om at veileder har
+              videreutdanning i en humanistisk terapimetode.
+            </p>
+          </div>
+
+          <div class="supervisor-grid">
+            <!-- BENTE -->
+
+            <div class="supervisor-card">
+              <img
+                src="images/bente.jpg"
+                alt="Bente Austbø"
+                class="supervisor-photo"
+              />
+
+              <div class="supervisor-info">
+                <p class="supervisor-name">Bente Austbø</p>
+
+                <p class="supervisor-title">
+                  Spesialist i barne- og ungdomspsykologi
+                </p>
+              </div>
+            </div>
+
+            <!-- HANNA -->
+
+            <div class="supervisor-card">
+              <img
+                src="images/hanna.jpg"
+                alt="Hanna Aardal"
+                class="supervisor-photo"
+              />
+
+              <div class="supervisor-info">
+                <p class="supervisor-name">Hanna Aardal</p>
+
+                <p class="supervisor-title">
+                  Spesialist i barne- og ungdomspsykologi
+                </p>
+              </div>
+            </div>
+
+            <!-- KJERSTI -->
+
+            <div class="supervisor-card">
+              <img
+                src="images/kjersti.jpg"
+                alt="Kjersti Lyngstad"
+                class="supervisor-photo"
+              />
+
+              <div class="supervisor-info">
+                <p class="supervisor-name">Kjersti Lyngstad</p>
+
+                <p class="supervisor-title">
+                  Spesialist i barne- og ungdomspsykologi
+                </p>
+              </div>
+            </div>
+
+            <!-- YLVA -->
+
+            <div class="supervisor-card">
+              <img
+                src="images/ylva.jpg"
+                alt="Ylva Linde"
+                class="supervisor-photo"
+              />
+
+              <div class="supervisor-info">
+                <p class="supervisor-name">Ylva Linde</p>
+
+                <p class="supervisor-title">
+                  Spesialist i barne- og ungdomspsykologi
+                </p>
+              </div>
+            </div>
+
+            <!-- AINA -->
+
+            <div class="supervisor-card">
+              <img
+                src="images/aina.jpg"
+                alt="Aina Dyb Bjerke"
+                class="supervisor-photo"
+              />
+
+              <div class="supervisor-info">
+                <p class="supervisor-name">Aina Dyb Bjerke</p>
+
+                <p class="supervisor-title">
+                  Spesialist i barne- og ungdomspsykologi
+                </p>
+              </div>
+            </div>
+
+            <!-- BODIL -->
+
+            <div class="supervisor-card">
+              <img
+                src="images/bodil.jpg"
+                alt="Bodil Solheim"
+                class="supervisor-photo"
+              />
+
+              <div class="supervisor-info">
+                <p class="supervisor-name">Bodil Solheim</p>
+
+                <p class="supervisor-title">
+                  Spesialist i barne- og ungdomspsykologi
+                </p>
+              </div>
+            </div>
+
+            <!-- HILDE -->
+
+            <div class="supervisor-card">
+              <img
+                src="images/hilde.jpg"
+                alt="Hilde Sundland Aghito"
+                class="supervisor-photo"
+              />
+
+              <div class="supervisor-info">
+                <p class="supervisor-name">Hilde Sundland Aghito</p>
+
+                <p class="supervisor-title">
+                  Spesialist i barne- og ungdomspsykologi
+                </p>
+              </div>
+            </div>
+
+            <!-- ANNE KLØVE -->
+
+            <div class="supervisor-card">
+              <img
+                src="images/anne-klove.jpg"
+                alt="Anne Kløve"
+                class="supervisor-photo"
+              />
+
+              <div class="supervisor-info">
+                <p class="supervisor-name">Anne Kløve</p>
+
+                <p class="supervisor-title">
+                  Spesialist i barne- og ungdomspsykologi og psykoterapi
+                </p>
+              </div>
+            </div>
+
+            <!-- GURO -->
+
+            <div class="supervisor-card">
+              <img
+                src="images/guro.jpg"
+                alt="Guro Rekkedal Årdal"
+                class="supervisor-photo"
+              />
+
+              <div class="supervisor-info">
+                <p class="supervisor-name">Guro Rekkedal Årdal</p>
+
+                <p class="supervisor-title">Spesialist i psykoterapi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="supervisor-notes">
+            <p>
+              Alle NIEFT-godkjente EFT- og EFST-veiledere godkjennes som
+              veiledere på programmet. Det samme gjelder psykologspesialister
+              som samlet har fullført minst tre års videreutdanning i
+              klientsentrert terapi, eksistensiell terapi, EFT eller EFST.
+            </p>
+
+            <p>
+              Dersom kandidaten ønsker å benytte en annen veileder enn en
+              NIEFT-godkjent veileder, må veilederen forhåndsgodkjennes av
+              Terapiakademiet gjennom en enkel skriftlig søknad.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -1003,7 +1324,7 @@
 
             <div class="accordion-content">
               <p>
-                <strong> Påmeldingsfrist: 14. mai 2027. </strong>
+                <strong> Påmeldingsfrist: 14. april 2027. </strong>
                 Påmelding er bindende.
               </p>
 
@@ -1108,8 +1429,8 @@
 
           <p>
             <strong>E-post:</strong>
-            <a href="mailto:post@terapiakademiet.no">
-              post@terapiakademiet.no
+            <a href="mailto:terapiakademiet@post.no">
+              terapiakademiet@post.no
             </a>
             <br />
 
@@ -1125,7 +1446,7 @@
 
       <section class="signup" id="pamelding">
         <div class="signup-inner">
-          <p class="signup-small">OSLO · OPPSTART 14. JUNI 2027</p>
+          <p class="signup-small">OSLO · OPPSTART 14. MAI 2027</p>
 
           <h2>Valgfritt program i humanistisk barne- og ungdomspsykologi</h2>
 
