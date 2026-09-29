@@ -388,7 +388,7 @@
           line-height: 1.4 !important;
         }
 
-        /* Anbefalte veiledere - 2 bortover */
+        /* Anbefalte veiledere - 2 bortover på mobil */
 
         .supervisor-intro {
           margin-bottom: 18px !important;
@@ -403,35 +403,59 @@
         }
 
         .supervisor-card {
-          gap: 8px !important;
+          display: flex !important;
+          align-items: center !important;
 
-          min-height: 67px;
+          gap: 7px !important;
 
-          padding: 9px !important;
+          min-width: 0 !important;
+          min-height: 72px !important;
+
+          padding: 8px !important;
+
+          overflow: hidden !important;
         }
 
         .supervisor-photo {
-          width: 43px !important;
-          height: 43px !important;
+          width: 42px !important;
+          height: 42px !important;
+
+          flex: 0 0 42px !important;
         }
 
-        .supervisor-name {
-          margin-bottom: 2px !important;
-
-          font-size: 11.5px !important;
-          line-height: 1.18 !important;
+        .supervisor-info {
+          min-width: 0 !important;
+          width: 100% !important;
         }
 
-        .supervisor-title {
-          font-size: 8.5px !important;
-          line-height: 1.2 !important;
+        /* Viktig: høyere spesifisitet enn vanlig avsnittstekst */
+
+        .course-section .supervisor-name {
+          margin: 0 0 3px 0 !important;
+
+          font-size: 11px !important;
+          line-height: 1.15 !important;
+          font-weight: 600 !important;
+
+          overflow-wrap: anywhere !important;
+          word-break: normal !important;
+        }
+
+        .course-section .supervisor-title {
+          margin: 0 !important;
+
+          font-size: 8px !important;
+          line-height: 1.25 !important;
+          font-weight: 400 !important;
+
+          overflow-wrap: anywhere !important;
+          word-break: normal !important;
         }
 
         .supervisor-notes p {
           font-size: 14px !important;
           line-height: 1.4 !important;
         }
-
         /* Sammenleggbare felt */
 
         .accordion-container h2 {
