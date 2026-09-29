@@ -759,3 +759,8 @@ footer a {
     padding: 42px 22px;
   }
 }
+@media (max-width: 550px) {
+  .mobile-center-heading {
+    text-align: center !important;
+  }
+}
