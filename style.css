@@ -140,6 +140,15 @@ body {
   padding: 30px 34px 32px;
 }
 
+.course-city {
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  color: #8a334e;
+}
+
 .course-content h3 {
   margin: 0 0 18px;
   font-size: 29px;
