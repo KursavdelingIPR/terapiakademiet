@@ -186,6 +186,32 @@
         color: #754e5a;
       }
 
+      /* Overskrift og tekst midtstilt */
+
+      .supervisor-section h2 {
+        text-align: center;
+      }
+
+      .supervisor-section .supervisor-intro,
+      .supervisor-section .supervisor-notes {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+
+      .supervisor-section .supervisor-intro p,
+      .supervisor-section .supervisor-notes p {
+        text-align: center;
+      }
+
+      /* Siste veileder midt i raden */
+
+      @media (min-width: 551px) {
+        .supervisor-grid .supervisor-card:last-child {
+          grid-column: 2;
+        }
+      }
+
       .supervisor-notes {
         max-width: 1000px;
       }
@@ -384,7 +410,7 @@
 
         .teacher-card p:not(.teacher-role) {
           margin-bottom: 8px !important;
-          font-size: 14.5px !important;
+          font-size: 13.5px !important;
           line-height: 1.4 !important;
         }
 
@@ -898,13 +924,13 @@
             <!-- BENTE -->
 
             <article class="teacher-card">
-              <a href="https://www.ipr.no/vare-psykologer/bente-austb%C3%B8" target="_blank" rel="noopener"><img
+              <img
                 src="images/bente.jpg"
                 alt="Bente Austbø"
                 class="teacher-photo"
-              /></a>
+              />
 
-              <h3><a href="https://www.ipr.no/vare-psykologer/bente-austb%C3%B8" target="_blank" rel="noopener">Bente Austbø</a></h3>
+              <h3>Bente Austbø</h3>
 
               <p class="teacher-role">Hovedforeleser og faglig ansvarlig</p>
 
@@ -924,13 +950,13 @@
             <!-- HANNA -->
 
             <article class="teacher-card">
-              <a href="https://www.ipr.no/vare-psykologer/hanna-aardal" target="_blank" rel="noopener"><img
+              <img
                 src="images/hanna.jpg"
                 alt="Dr. Hanna Aardal"
                 class="teacher-photo"
-              /></a>
+              />
 
-              <h3><a href="https://www.ipr.no/vare-psykologer/hanna-aardal" target="_blank" rel="noopener">Dr. Hanna Aardal</a></h3>
+              <h3>Dr. Hanna Aardal</h3>
 
               <p class="teacher-role">Psykologspesialist</p>
 
@@ -950,13 +976,13 @@
             <!-- NADIA -->
 
             <article class="teacher-card">
-              <a href="https://www.ipr.no/vare-psykologer/nadia-ansar" target="_blank" rel="noopener"><img
+              <img
                 src="images/nadia-zoom.jpg"
                 alt="Dr. Nadia Ansar"
                 class="teacher-photo"
-              /></a>
+              />
 
-              <h3><a href="https://www.ipr.no/vare-psykologer/nadia-ansar" target="_blank" rel="noopener">Dr. Nadia Ansar</a></h3>
+              <h3>Dr. Nadia Ansar</h3>
 
               <p class="teacher-role">Psykologspesialist</p>
 
@@ -976,13 +1002,13 @@
             <!-- ANNE HILDE -->
 
             <article class="teacher-card">
-              <a href="https://www.ipr.no/vare-psykologer/anne-hilde-vassbo-hagen" target="_blank" rel="noopener"><img
+              <img
                 src="images/anne-hilde-zoom.jpg"
                 alt="Anne Hilde Vassbø Hagen"
                 class="teacher-photo"
-              /></a>
+              />
 
-              <h3><a href="https://www.ipr.no/vare-psykologer/anne-hilde-vassbo-hagen" target="_blank" rel="noopener">Anne Hilde Vassbø Hagen</a></h3>
+              <h3>Anne Hilde Vassbø Hagen</h3>
 
               <p class="teacher-role">Psykolog og leder</p>
 
@@ -1159,14 +1185,14 @@
             <!-- BENTE -->
 
             <div class="supervisor-card">
-              <a href="https://www.ipr.no/vare-psykologer/bente-austb%C3%B8" target="_blank" rel="noopener"><img
+              <img
                 src="images/bente.jpg"
                 alt="Bente Austbø"
                 class="supervisor-photo"
-              /></a>
+              />
 
               <div class="supervisor-info">
-                <p class="supervisor-name"><a href="https://www.ipr.no/vare-psykologer/bente-austb%C3%B8" target="_blank" rel="noopener">Bente Austbø</a></p>
+                <p class="supervisor-name">Bente Austbø</p>
 
                 <p class="supervisor-title">
                   Spesialist i barne- og ungdomspsykologi
@@ -1177,14 +1203,14 @@
             <!-- HANNA -->
 
             <div class="supervisor-card">
-              <a href="https://www.ipr.no/vare-psykologer/hanna-aardal" target="_blank" rel="noopener"><img
+              <img
                 src="images/hanna.jpg"
                 alt="Dr. Hanna Aardal"
                 class="supervisor-photo"
-              /></a>
+              />
 
               <div class="supervisor-info">
-                <p class="supervisor-name"><a href="https://www.ipr.no/vare-psykologer/hanna-aardal" target="_blank" rel="noopener">Dr. Hanna Aardal</a></p>
+                <p class="supervisor-name">Dr. Hanna Aardal</p>
 
                 <p class="supervisor-title">
                   Spesialist i barne- og ungdomspsykologi
@@ -1195,14 +1221,14 @@
             <!-- KJERSTI -->
 
             <div class="supervisor-card">
-              <a href="https://www.ipr.no/vare-psykologer/kjersti-lyngstad" target="_blank" rel="noopener"><img
+              <img
                 src="images/kjersti.jpg"
                 alt="Kjersti Lyngstad"
                 class="supervisor-photo"
-              /></a>
+              />
 
               <div class="supervisor-info">
-                <p class="supervisor-name"><a href="https://www.ipr.no/vare-psykologer/kjersti-lyngstad" target="_blank" rel="noopener">Kjersti Lyngstad</a></p>
+                <p class="supervisor-name">Kjersti Lyngstad</p>
 
                 <p class="supervisor-title">
                   Spesialist i barne- og ungdomspsykologi
@@ -1213,14 +1239,14 @@
             <!-- YLVA -->
 
             <div class="supervisor-card">
-              <a href="https://www.ipr.no/vare-psykologer/ylva-linde" target="_blank" rel="noopener"><img
+              <img
                 src="images/ylva.jpg"
                 alt="Ylva Linde"
                 class="supervisor-photo"
-              /></a>
+              />
 
               <div class="supervisor-info">
-                <p class="supervisor-name"><a href="https://www.ipr.no/vare-psykologer/ylva-linde" target="_blank" rel="noopener">Ylva Linde</a></p>
+                <p class="supervisor-name">Ylva Linde</p>
 
                 <p class="supervisor-title">
                   Spesialist i barne- og ungdomspsykologi
@@ -1249,14 +1275,14 @@
             <!-- BODIL -->
 
             <div class="supervisor-card">
-              <a href="https://www.ipr.no/vare-psykologer/bodil-solheim" target="_blank" rel="noopener"><img
+              <img
                 src="images/bodil.jpg"
                 alt="Bodil Solheim"
                 class="supervisor-photo"
-              /></a>
+              />
 
               <div class="supervisor-info">
-                <p class="supervisor-name"><a href="https://www.ipr.no/vare-psykologer/bodil-solheim" target="_blank" rel="noopener">Bodil Solheim</a></p>
+                <p class="supervisor-name">Bodil Solheim</p>
 
                 <p class="supervisor-title">
                   Spesialist i barne- og ungdomspsykologi
@@ -1267,14 +1293,14 @@
             <!-- HILDE -->
 
             <div class="supervisor-card">
-              <a href="https://www.ipr.no/vare-psykologer/hilde-sundland-aghito" target="_blank" rel="noopener"><img
+              <img
                 src="images/hilde.jpg"
                 alt="Hilde Sundland Aghito"
                 class="supervisor-photo"
-              /></a>
+              />
 
               <div class="supervisor-info">
-                <p class="supervisor-name"><a href="https://www.ipr.no/vare-psykologer/hilde-sundland-aghito" target="_blank" rel="noopener">Hilde Sundland Aghito</a></p>
+                <p class="supervisor-name">Hilde Sundland Aghito</p>
 
                 <p class="supervisor-title">
                   Spesialist i barne- og ungdomspsykologi
@@ -1285,14 +1311,14 @@
             <!-- ANNE KLØVE -->
 
             <div class="supervisor-card">
-              <a href="https://www.ipr.no/vare-psykologer/anne-kl%C3%B8ve" target="_blank" rel="noopener"><img
+              <img
                 src="images/anne-klove.jpg"
                 alt="Anne Kløve"
                 class="supervisor-photo"
-              /></a>
+              />
 
               <div class="supervisor-info">
-                <p class="supervisor-name"><a href="https://www.ipr.no/vare-psykologer/anne-kl%C3%B8ve" target="_blank" rel="noopener">Anne Kløve</a></p>
+                <p class="supervisor-name">Anne Kløve</p>
 
                 <p class="supervisor-title">
                   Spesialist i barne- og ungdomspsykologi og psykoterapi
@@ -1303,16 +1329,34 @@
             <!-- GURO -->
 
             <div class="supervisor-card">
-              <a href="https://www.ipr.no/vare-psykologer/guro-rekkedal" target="_blank" rel="noopener"><img
+              <img
                 src="images/guro.jpg"
                 alt="Guro Rekkedal Årdal"
                 class="supervisor-photo"
-              /></a>
+              />
 
               <div class="supervisor-info">
-                <p class="supervisor-name"><a href="https://www.ipr.no/vare-psykologer/guro-rekkedal" target="_blank" rel="noopener">Guro Rekkedal Årdal</a></p>
+                <p class="supervisor-name">Guro Rekkedal Årdal</p>
 
                 <p class="supervisor-title">Spesialist i psykoterapi</p>
+              </div>
+            </div>
+
+            <!-- PETTER -->
+
+            <div class="supervisor-card">
+              <img
+                src="images/petter.jpg"
+                alt="Petter Franer"
+                class="supervisor-photo"
+              />
+
+              <div class="supervisor-info">
+                <p class="supervisor-name">Petter Franer</p>
+
+                <p class="supervisor-title">
+                  Spesialist i klinisk voksenpsykologi
+                </p>
               </div>
             </div>
           </div>
