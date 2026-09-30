@@ -250,6 +250,26 @@ body {
    KNAPPER
 ======================================== */
 
+.approval-note {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 32px 0 0;
+  padding: 16px 20px;
+  border-left: 4px solid #8a334e;
+  background-color: rgba(255, 255, 255, 0.45);
+  font-size: 17px;
+  line-height: 1.45;
+  color: #562a3e;
+}
+
+.approval-icon {
+  flex: 0 0 26px;
+  width: 26px;
+  height: 26px;
+  color: #8a334e;
+}
+
 .course-button {
   display: inline-block;
   padding: 14px 25px;
