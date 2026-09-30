@@ -232,6 +232,11 @@ body {
   object-fit: cover;
 }
 
+.course-hero-image img.hero-forside {
+  height: auto !important;
+  aspect-ratio: 1200 / 727;
+}
+
 /* ========================================
    KNAPPER
 ======================================== */
@@ -449,6 +454,19 @@ body {
   line-height: 1.2;
   font-weight: 500;
   color: #562a3e;
+}
+
+/* Lenker til IPR sine presentasjonssider */
+
+.teacher-card h3 a,
+.supervisor-name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.teacher-card h3 a:hover,
+.supervisor-name a:hover {
+  text-decoration: underline;
 }
 
 /* Rolle */
@@ -775,6 +793,8 @@ footer a {
 
 .oslo-course-image,
 .bergen-course-image {
+  height: auto;
+  aspect-ratio: 1600 / 970;
   object-fit: cover;
   object-position: center top;
 }
